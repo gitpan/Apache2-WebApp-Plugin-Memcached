@@ -1,0 +1,8 @@
+    # stash the memcached object for later use
+    #my $session = $c->plugin('Memcached')->connect({
+    #    memcached_servers   => $c->config->{memcached_servers},
+    #    memcached_threshold => $c->config->{memcached_threshold},
+    #    debug               =>  0,
+    #  });
+    #
+    #$c->stash('MCACHE1', $session);

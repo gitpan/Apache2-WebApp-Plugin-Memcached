@@ -1,0 +1,4 @@
+Revision history for Perl module Apache2::WebApp::Plugin::Memcached
+
+0.01 Tue Nov 24 00:26:01 2009
+    - original version; created by ExtUtils::ModuleMaker 0.51
