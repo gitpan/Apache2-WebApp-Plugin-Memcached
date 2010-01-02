@@ -21,7 +21,7 @@ WriteMakefile(
     AUTHOR       => 'Marc S. Brooks (mbrooks@cpan.org)',
     PREREQ_PM => {
         'Apache::Test'     => 0,
-        'Apache2::WebApp'  => 0.01,
+        'Apache2::WebApp'  => 0.21,
         'Cache::Memcached' => 1.25,
         'Params::Validate' => 0,
     },
@@ -32,4 +32,12 @@ WriteMakefile(
 
 sub clean_files {
     return [@scripts];
+}
+
+# Install build script template dependencies (non-standard way)
+sub MY::postamble {
+'
+install::
+	cp -rv usr/share/webapp-toolkit/plugin* /usr/share/webapp-toolkit
+';
 }

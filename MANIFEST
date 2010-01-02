@@ -14,5 +14,5 @@ t/conf/extra.last.conf.in
 t/conf/startup.pl.in
 t/conf/webapp.in
 t/TEST.PL
-usr/share/webapp-toolkit/plugin_base/Memcached.tt
-usr/share/webapp-toolkit/plugin_conf/Memcached.tt
+usr/share/webapp-toolkit/plugin/base/Memcached.tt
+usr/share/webapp-toolkit/plugin/conf/Memcached.tt
